@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./Components/Hero/Hero";
+import SplitBox from "./Components/SplitBox/SplitBox";
 import Header from "./Components/header/Header";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <SplitBox />
+      <SplitBox swap={true} />
     </div>
   );
 }
