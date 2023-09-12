@@ -1,0 +1,22 @@
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #00ff00;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color .3s, transform .3s, color .3s;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid lightgrey
+}
+
+.button-wrapper:active {
+    transform: scale(0.9);
+}
+
+.button-wrapper:hover {
+    transform: translate3d(0, -3px, .01px);
+}
